@@ -12,6 +12,8 @@
  
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
+ @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Old+Standard+TT');
+
 
 body{
     
@@ -78,7 +80,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-s
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4{
     font-weight: 400;
-    margin: 30px 0 15px;
+    /* margin: 30px 0 15px; */
 }
 
 h1, .h1 {
@@ -753,9 +755,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     margin-top: 300px;
     z-index: 3;
 }
-.main .logo.cursive{
-    font-family: 'Grand Hotel',cursive;
-    font-size: 82px;
+.cursive{
+    font-family: 'Old Standard TT', serif;
+    font-size: 140px;
     
 }
 .main .content{
