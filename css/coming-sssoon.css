@@ -16,6 +16,24 @@
 body{
     
 }
+
+.white {
+    color: #ffffff;
+}
+
+.brix{
+    max-width: 500px;
+    position: absolute;
+    bottom: -70px;
+    left: 30%;
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+    z-index: 3;
+}
+
 .form-control::-moz-placeholder{
    color: #DDDDDD;
    opacity: 1;
@@ -732,7 +750,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     position: relative;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
-    margin-top: 150px;
+    margin-top: 300px;
     z-index: 3;
 }
 .main .logo.cursive{
@@ -747,13 +765,17 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 /* .main .motto{
     min-height: 40px;
 } */
-.main .motto, .main .subscribe .info-text{
+.main , .main .subscribe .info-text{
     font-size: 28px;
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
     text-align: center;
-    margin-top: 50px;
-    
+    margin-top: 50px; 
+}
+.motto {
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+    text-align: center;
 }
 .main .subscribe .info-text{
     font-size: 18px;
@@ -934,3 +956,5 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     }
 
 }
+
+
