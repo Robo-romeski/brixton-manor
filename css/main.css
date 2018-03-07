@@ -21,8 +21,11 @@ body {
     margin: 0 auto;
     padding-bottom: 30px;
 }
-.addy{
+li{
     list-style: none;
+}
+.brixtonlady{
+    min-width: 300px;
 }
 
 .accordion{width:500px; margin: 0 auto;}
