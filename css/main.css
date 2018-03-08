@@ -25,7 +25,16 @@ li{
     list-style: none;
 }
 .brixtonlady{
-    min-width: 300px;
+   width: 100%;
+}
+@media only screen and (max-width: 768px) {
+
+    .brixtonlady{
+       width: 350px; 
+    }
+}
+.right{
+    float: right;
 }
 
 .accordion{width:500px; margin: 0 auto;}
