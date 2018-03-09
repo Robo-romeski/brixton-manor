@@ -36,6 +36,9 @@ li{
 .right{
     float: right;
 }
+.zeck {
+    font-size: 10px;
+}
 
 .accordion{width:500px; margin: 0 auto;}
 .accordion-toggle {border-bottom: 1px solid #cccccc;cursor: pointer;margin: 0;padding: 10px 0;position: relative;}
